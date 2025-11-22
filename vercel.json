@@ -1,0 +1,13 @@
+{
+  "functions": {
+    "api/**": {
+      "runtime": "nodejs18.x",
+      "maxDuration": 10
+    }
+  },
+  "build": {
+    "env": {
+      "DISABLE_PRISMA_GENERATE": "true"
+    }
+  }
+}
